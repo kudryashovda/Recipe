@@ -20,3 +20,19 @@ void tokenize_string(string s, TStringList &ts) {
 void copy_block(TStringList &ts) {
   transfer to page2;
 }
+
+void make_stage() {
+  get std data from all edit and put in to ts array
+  mmo1.addLine(print_string(ts);
+}
+
+
+void copy_str2lbls(s) {
+  delim(s, ts);
+  update_lbls(ts);
+}
+
+void copy_str2edts(s) {
+  delim(s, ts);
+  update_edts(ts);
+}
