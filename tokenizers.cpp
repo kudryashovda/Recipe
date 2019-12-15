@@ -1,4 +1,4 @@
-########## Use strinstream and char as delim ###########
+########## Uses strinstream and char as delim ###########
 
 #include<sstream>
 #include<vector>
