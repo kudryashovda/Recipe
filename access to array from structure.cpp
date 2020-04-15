@@ -11,9 +11,7 @@ struct pkt_st
 
 int main()
 {
-    struct pkt_st* p;
-
-    p = ( pkt_st* )packet;
+    pkt_st* p = ( pkt_st* )packet;
 
     std::cout << "head: " << p->head << std::endl;
     std::cout << "data: " << p->data << std::endl;
